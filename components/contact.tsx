@@ -34,7 +34,7 @@ export default function Contact() {
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
         Please contact me directly at{" "}
-        <a className="underline" href="tel: +6282272106860">+62-822-7210-6860
+        <a className="underline" href="https://wa.me/6282272106860">+62-822-7210-6860
         </a>
         <br />{" "}and {" "}
         <a className="underline" href="mailto:alfredcnzagoto@gmail.com">

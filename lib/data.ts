@@ -79,6 +79,7 @@ export const projectsData = [
       "Thread like website.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "TypeScript"],
     imageUrl: profil1,
+    linkUrl: "https://github.com/SwitchZer/threads",
   },
   {
     title: "React Cart",
@@ -86,6 +87,7 @@ export const projectsData = [
       "Simple E-commerce Cart.",
     tags: ["React", "JavaScript", "Tailwind", "Redux"],
     imageUrl: profil2,
+    linkUrl: "https://github.com/SwitchZer/React-Cart",
   },
   {
     title: "Laravel Point of Sales",
@@ -93,6 +95,7 @@ export const projectsData = [
       "Simple POS Website.",
     tags: ["PHP", "Laravel", "MySql", "Bootsrap"],
     imageUrl: profil3,
+    linkUrl: "https://github.com/SwitchZer/Laravel-POS",
   },
 ] as const;
 
