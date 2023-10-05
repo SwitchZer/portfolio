@@ -79,7 +79,7 @@ export const projectsData = [
       "Thread like website.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "TypeScript"],
     imageUrl: profil1,
-    linkUrl: "https://github.com/SwitchZer/threads",
+    linkUrl: "https://alfred-threads-clone.vercel.app/",
   },
   {
     title: "React Cart",
