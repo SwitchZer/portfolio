@@ -5,6 +5,10 @@ import { LuGraduationCap } from "react-icons/lu";
 import profil1 from "@/public/profile1.png";
 import profil2 from "@/public/img.png";
 import profil3 from "@/public/2.jpg";
+import profil5 from "@/public/FoodRecipe.png";
+import profil4 from "@/public/Homepage.png";
+import profil6 from "@/public/13.png";
+import profil7 from "@/public/LandingPagePijar.png";
 
 export const links = [
   {
@@ -39,40 +43,57 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Internship",
+    title: "Internship Program from School",
     location: "CV Todak Source",
     description:
-      "Im making simple website for small company using HTMl, CSS and PHP.",
+      "Im making simple website for small company using HTMl, CSS and PHP and Maintenance the website.",
     icon: React.createElement(CgWorkAlt),
-    date: "2021",
+    date: "June 2021 - September 2021",
   },
   {
-    title: "Graduated bootcamp",
-    location: "Refocus Indonesia",
+    title: "Graduated Bootcamp",
+    location: "PijarCamp by Telkom Indonesia",
     description:
-      "I graduated after 1 year of studying.",
+      "I graduated after 4 month of intense studying and making real project using React.Js, Next.Js, Node.Js, Express.Js and React Native.",
     icon: React.createElement(LuGraduationCap),
-    date: "2022 - 2023",
+    date: "March 2024 - July 2024",
   },
-  {
-    title: "Fullstack Developer",
-    location: "Femtatech Indonesia",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2022 - 2023",
-  },
-  {
-    title: "Freelance Full-Stack Developer",
-    location: "Upwork",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2022 - present",
-  },
+
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Peworld Web",
+    description:
+      "Peworld Website - Comprehensive Web/Mobile Developer Recruitment Platform",
+    tags: ["React.Js", "Express.Js", "PostgreSQL", "Tailwind", "Redux Thunk"],
+    imageUrl: profil7,
+    linkUrl: "https://github.com/SwitchZer/Hire-Job-App",
+  },
+  {
+    title: "Peworld Mobile",
+    description:
+      "Peworld Mobile - Easier Hire Developer From Your Mobile Device",
+    tags: ["React Native", "Express.Js", "PostgreSQL", "Tailwind", "Redux Thunk"],
+    imageUrl: profil6,
+    linkUrl: "https://github.com/SwitchZer/PeWorld-Mobile",
+  },
+  {
+    title: "Food Recipe",
+    description:
+      "Food Recipe - Browse and Share Recipe Here",
+    tags: ["Next.Js", "Express.Js", "PostgreSQL", "Tailwind"],
+    imageUrl: profil5,
+    linkUrl: "https://github.com/SwitchZer/food-recipe",
+  },
+  {
+    title: "Blanja",
+    description:
+      "Blanja - Simple Online Shop Website",
+    tags: ["Next.Js", "Express.Js", "PostgreSQL", "Tailwind"],
+    imageUrl: profil4,
+    linkUrl: "https://github.com/SwitchZer/blanja-fe",
+  },
   {
     title: "Thread Clone",
     description:
@@ -104,13 +125,14 @@ export const skillsData = [
   "CSS",
   "JavaScript",
   "TypeScript",
-  "React",
+  "React.js",
   "Next.js",
   "Node.js",
+  "Express.js",
   "Git",
   "Tailwind",
-  "MongoDB",
   "Redux",
   "PostgreSQL",
-  "Framer Motion",
+  "MySQL",
+  "React Native"
 ] as const;
